@@ -87,14 +87,14 @@ module.exports = {
 			},
 			{
 				test: /\.js$/,
-					use: [
-						{
-							loader: 'babel-loader',
-							options: {
-								presets: [ require( 'babel-preset-env' ) ]
-							}
+				use: [
+					{
+						loader: 'babel-loader',
+						options: {
+							presets: [ require( 'babel-preset-env' ) ]
 						}
-					]
+					}
+				]
 			}
 		]
 	}
